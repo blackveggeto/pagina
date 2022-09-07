@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/pagina/static/js/main.d418c0e8.js",
+    "index.html": "/pagina/index.html",
+    "main.d418c0e8.js.map": "/pagina/static/js/main.d418c0e8.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.d418c0e8.js"
+  ]
+}
