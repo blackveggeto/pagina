@@ -1,4 +1,3 @@
-import React from "react";
 import {BrowserRouter, Routes, Route} from "react-router-dom"
 import {Login} from './components/Login';
 
@@ -7,7 +6,7 @@ function App() {
     <main className="App">
       <BrowserRouter>
       <Routes>
-        <Route exact path="/" component={Login}/>
+        <Route exact path="/" element={<Login/>}/>
       </Routes>
       </BrowserRouter>
     </main>
