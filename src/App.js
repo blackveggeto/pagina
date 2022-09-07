@@ -1,4 +1,5 @@
-import {BrowserRouter as Routes, Route} from "react-router-dom"
+import React from "react";
+import {BrowserRouter, Routes, Route} from "react-router-dom"
 import {Login} from './components/Login';
 
 function App() {
@@ -6,7 +7,7 @@ function App() {
     <main className="App">
       <BrowserRouter>
       <Routes>
-        <Route exact path="/" element={<Login/>}/>
+        <Route exact path="/" component={Login}/>
       </Routes>
       </BrowserRouter>
     </main>
