@@ -47,7 +47,7 @@ export const Login = () => {
             <form id="form_login">
                 <div>
                     <h1 style={{ color: "blue", textalign: "center" }}>LOGIN</h1>
-                    <label htmlFor="txtusu"><strong>Username</strong></label>
+                    <label htmlFor="txtusu"><strong>Usuario</strong></label>
                     <input type="text" id="txtusu" style={{ textAlign: "center" }} className="form-control"
                         name="name"
                         onChange={handleChange}
