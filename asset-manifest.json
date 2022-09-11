@@ -1,10 +1,14 @@
 {
   "files": {
+    "main.css": "/pagina/static/css/main.091ccc8c.css",
     "main.js": "/pagina/static/js/main.430f7d84.js",
+    "static/media/paisaje2.jpg": "/pagina/static/media/paisaje2.105d8e28d534e2d37819.jpg",
     "index.html": "/pagina/index.html",
+    "main.091ccc8c.css.map": "/pagina/static/css/main.091ccc8c.css.map",
     "main.430f7d84.js.map": "/pagina/static/js/main.430f7d84.js.map"
   },
   "entrypoints": [
+    "static/css/main.091ccc8c.css",
     "static/js/main.430f7d84.js"
   ]
 }

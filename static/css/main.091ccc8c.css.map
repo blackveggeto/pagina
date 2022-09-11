@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.091ccc8c.css","mappings":"AAAA,KAII,4EAAmC,CADnC,2BAA4B,CAD5B,oBAIJ","sources":["components/desing/desing.css"],"sourcesContent":["body{\r\n\r\n    background-size: auto;\r\n    background-repeat: no-repeat;\r\n    background-image: url(paisaje2.jpg);\r\n\r\n}"],"names":[],"sourceRoot":""}
