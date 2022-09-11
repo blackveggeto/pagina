@@ -5,3 +5,11 @@ body{
     background-image: url(paisaje2.jpg);
 
 }
+
+.label{
+    font-size: xx-large;
+    font-style: italic;
+    margin-left: 35%;
+    margin-top: 5%;
+    margin-right: 30%;
+}

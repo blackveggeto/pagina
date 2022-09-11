@@ -5,7 +5,7 @@ import './desing/desing.css';
 export const Menu = (props) => {
   return (
     <div>
-        <label>  {props.user}</label>
+        <label className='label'>  {props.user}</label>
     </div>
   )
 }
