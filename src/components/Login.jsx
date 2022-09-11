@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import {Menu} from './Menu'
+import { Menu } from './Menu'
+import './desing/desing.css'
 
 export const Login = () => {
 
@@ -43,29 +44,40 @@ export const Login = () => {
     }
 
     return (
-        <div className="container" style={{ background: "lightgray", marginTop: 20, padding: 20 }}>
-            <form id="form_login">
-                <div>
-                    <h1 style={{ color: "blue", textalign: "center" }}>LOGIN</h1>
-                    <label htmlFor="txtusu"><strong>Usuario</strong></label>
-                    <input type="text" id="txtusu" style={{ textAlign: "center" }} className="form-control"
-                        name="name"
-                        onChange={handleChange}
+        <div className='mayor'>
 
-                        required />
+
+            <div className="container" >
+                <form id="form_login">
+                    <div>
+                        <h1 style={{ color: "blue", textalign: "center" }}>LOGIN</h1>
+                        <label htmlFor="txtusu"><strong>Usuario</strong></label>
+                        <input type="text" id="txtusu" style={{ textAlign: "center" }} className="form-control"
+                            name="name"
+                            onChange={handleChange}
+
+                            required />
+                    </div>
+                    <div>
+                        <label htmlFor="txtpas"><strong>Password</strong></label>
+                        <input type="password" id="txtpas" style={{ textAlign: "center" }} className="form-control"
+                            name="lastName"
+                            onChange={handleChange}
+
+                            required />
+                    </div><br />
+                    <input type="submit" className="btn btn-primary" value="Ingresar" onClick={initSetion} />
+
+                </form>
+                {miLogin === "true" && <Menu user={datos.name} />}
+
+            </div>
+            <footer>
+                <div className='letras'>
+                <p>© 2022 Luis Felipe Aguilar</p>
+                <p>© Login Informatica Aplicada a los negocios</p>
                 </div>
-                <div>
-                    <label htmlFor="txtpas"><strong>Password</strong></label>
-                    <input type="password" id="txtpas" style={{ textAlign: "center" }} className="form-control"
-                        name="lastName"
-                        onChange={handleChange}
-
-                        required />
-                </div><br />
-                <input type="submit" className="btn btn-primary" value="Ingresar" onClick={initSetion} />
-
-            </form>
-            {miLogin==="true" && <Menu user={datos.name}/>}
+            </footer>
         </div>
     )
 }
