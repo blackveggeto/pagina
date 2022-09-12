@@ -6,7 +6,7 @@ export const Menu = (props) => {
   return (
     <div>
       <label className='label'> Nombre de Usuario:  {props.user}</label><br></br>
-      <div>
+      <div className='mes'>
         <h1>Te quiero Mucho Yet</h1>
 
       </div>
