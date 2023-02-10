@@ -1,4 +1,4 @@
-import { titleCase } from "./ProfileCard";
+import { titleCase } from "../components/ProfileCard";
 
 
 describe('funciones dentro del componente', ()=>{
