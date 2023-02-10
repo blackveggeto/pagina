@@ -11,10 +11,12 @@ export function titleCase(text){
     return result.join(' ');
 }
 
-const ProfileCard =({name,age})=> {
-  return (
-    <div>ProfileCard</div>
-  )
-}
+export function ProfileCard({dato}){
 
-export default ProfileCard;
+  return(
+    <div>
+      {dato}
+    </div>
+  )
+
+}
