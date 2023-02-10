@@ -10,7 +10,7 @@ describe('funciones dentro del componente', ()=>{
         });
 
         test('debe retornar un string transformado',()=>{
-            expect(titleCase('nada que decir')).toBe('Nada Que Decir');
+            expect(titleCase('nada que decir xd')).toBe('Nada Que Decir Xd');
         })
         
     });
